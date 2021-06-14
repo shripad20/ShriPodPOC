@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
   #spec.source       = { :http => 'file:' + __dir__ + "/" }
   spec.source     = { :git => "https://github.com/shripad20/ShriPodPOC.git", :tag => "#{spec.version}" }
   spec.swift_version = "5.0"
-  spec.source_files  = "ShriPodPOC/ShriPodPOC/Source/**/*.{swift, xib}"
+  spec.source_files  = "ShriPodPOC/Source/*.{swift, xib}"
 
 end

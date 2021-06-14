@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ShriPodPOC"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0"
   spec.summary      = "This is the POC of creating own POD named ShriPodPOC."
 
   spec.description  = <<-DESC
